@@ -43,6 +43,16 @@ li {
   font-size: 1.8rem;
 }
 
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 /* INTRODUCTION SECTION  */
 
 .introduction {
