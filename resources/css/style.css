@@ -1,3 +1,4 @@
+/* stylelint-disable selector-class-pattern */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 *,
@@ -48,8 +49,7 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  background-image: url(../img/headerbg.png);
+  background-image: url("../img/headerbg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
