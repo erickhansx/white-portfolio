@@ -1,0 +1,100 @@
+/* stylelint-disable selector-class-pattern */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+* ::after,
+* ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+
+li {
+  list-style: none;
+}
+
+.background-primary {
+  background-color: #fff;
+  border-radius: 0 0 0 8rem;
+}
+
+/* Navigation Section */
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5.8rem 2.4rem;
+}
+
+.nav__logo {
+  color: #6070ff;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+/* INTRODUCTION SECTION  */
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/headerbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100vw;
+  padding: 0 2.4rem;
+  min-height: 80vh;
+}
+
+.introduction__heading {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.introduction__paragraph {
+  color: #344563;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.introduction__heading--2 {
+  color: #7f8cff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-top: 1.2rem;
+}
+
+.introduction__social-links--list {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 2rem;
+  margin-top: 1.2rem;
+}
