@@ -44,9 +44,6 @@ li {
 
 /* INTRODUCTION SECTION  */
 
-.main__introduction {
-}
-
 .introduction {
   display: flex;
   flex-direction: column;
@@ -58,7 +55,7 @@ li {
   background-position: center;
   max-width: 100vw;
   padding: 0 2.4rem;
-  min-height: 85vh;
+  min-height: 80vh;
 }
 
 .introduction__heading {
@@ -67,7 +64,6 @@ li {
   font-size: 4rem;
   line-height: 5.2rem;
   margin-bottom: 1.2rem;
-  /* margin-top: 2rem; */
 }
 
 .introduction__paragraph {
