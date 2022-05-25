@@ -98,3 +98,187 @@ a:visited {
   gap: 2rem;
   margin-top: 1.2rem;
 }
+
+/* WORKS SECTION */
+
+.works {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  margin: 11.4rem 2.4rem 0;
+}
+
+.works__tonic-mps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 1.6rem;
+  margin-bottom: 8.8rem;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
+}
+
+.works__image {
+  max-width: 100%;
+}
+
+.works__heading {
+  color: #172b4d;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+}
+
+.works__list--1 {
+  color: #7a869a;
+  line-height: 1.6rem;
+  display: flex;
+  justify-content: baseline;
+  gap: 1.2rem;
+  margin: 2rem 0;
+}
+
+.canopy {
+  color: #344563;
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #c1c7d0;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.works__paragraph {
+  color: #344563;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.works__list--2 {
+  display: flex;
+  gap: 3.2rem;
+  color: #6070ff;
+  margin-top: 1.2rem;
+}
+
+.works__list--2-item {
+  background-color: #ebebff;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.btn {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.btn-primary {
+  padding: 1.2rem;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  border-radius: 0.8rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #6070ff;
+}
+
+.btn-primary:active {
+  color: #fff;
+  background-color: #2230d2;
+}
+
+.btn-primary:visited {
+  color: #5e6c84;
+  background-color: #fff;
+  border: 1px solid #c1c7d0;
+}
+
+/* ABOUT MYSELF */
+
+.about-myself {
+  background-color: #fff;
+  margin-top: 11.4rem;
+  padding: 11.4rem 2.4rem 6rem;
+  border-radius: 0 8rem 0 0;
+}
+
+/* LANGUAGES */
+
+.lang-fram-skills {
+  background-color: #fff;
+  padding: 3.6rem;
+}
+
+.lang-fram-skills__languages {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-right: 2.3rem;
+}
+
+.ellipse-image {
+  padding: 0.9rem 1.6rem 1rem 1.2rem;
+}
+
+.lang-fram-skills__ellipses li {
+  display: flex;
+  align-items: center;
+  color: #253858;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  background-color: #f7f7f9;
+  margin: 1.2rem 0;
+}
+
+.lang-fram-skills__ellipses li:last-child {
+  margin-bottom: 3.6rem;
+}
+
+.lang-fram-skills__frameworks {
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 2.3rem;
+}
+
+.lang-fram-skills__skills {
+  border-bottom: 1px solid #dfe1e6;
+  padding-bottom: 2.3rem;
+  padding-top: 2.4rem;
+}
+
+.works__image-container--1 {
+  background-image: url("../img/project1.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
+
+.works__image-container--2 {
+  background-image: url("../img/project2.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
+
+.works__image-container--3 {
+  background-image: url("../img/project3.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
+
+.works__image-container--4 {
+  background-image: url("../img/project4.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
