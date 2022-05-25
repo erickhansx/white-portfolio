@@ -200,6 +200,7 @@ a:visited {
 
 .btn-primary:visited {
   color: #5e6c84;
+  background-color: #fff;
   border: 1px solid #c1c7d0;
 }
 
@@ -256,4 +257,28 @@ a:visited {
   border-bottom: 1px solid #dfe1e6;
   padding-bottom: 2.3rem;
   padding-top: 2.4rem;
+}
+
+.works__image-container--1 {
+  background-image: url("../img/project1.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
+
+.works__image-container--2 {
+  background-image: url("../img/project2.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
+
+.works__image-container--3 {
+  background-image: url("../img/project3.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
+}
+
+.works__image-container--4 {
+  background-image: url("../img/project4.png");
+  background-size: 100% 100%;
+  padding-bottom: 80%;
 }
