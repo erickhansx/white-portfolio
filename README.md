@@ -31,11 +31,11 @@ Once you have downloaded the project to your local machine, you can extract the 
 
 👤 **Author1**
 
+`Erick Hans Martinez`
+
 - GitHub: [@erickhansx](https://github.com/erickhansx)
 - Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/erick-hans-858382231/)
-
-👤 **Author2**
 
 ## 🤝 Contributing
 
