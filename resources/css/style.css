@@ -115,6 +115,8 @@ a:visited {
   background-color: #fff;
   padding: 1.6rem;
   margin-bottom: 8.8rem;
+  border: 1px solid #dfe1e6;
+  border-radius: 1.6rem;
 }
 
 .works__image {
@@ -209,6 +211,8 @@ a:visited {
   padding: 11.4rem 2.4rem 6rem;
   border-radius: 0 8rem 0 0;
 }
+
+/* LANGUAGES */
 
 .lang-fram-skills {
   background-color: #fff;
