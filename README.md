@@ -5,6 +5,7 @@
 > This is my first portfolio.
 > It was based on a FIGMA template and I used HTML,
 > CSS and CSS FLEXBOX to build the first part of the mobile version.
+> For the works section I implemented a grid using CSS GRID technology along with FLEXBOX
 
 ## Getting Started
 
@@ -24,7 +25,7 @@ Once you have downloaded the project to your local machine, you can extract the 
 
 ## Built With
 
-- CSS - HTML - FLEXBOX
+- CSS - HTML - FLEXBOX - CSS Grid
 
 ## Authors 👤
 
