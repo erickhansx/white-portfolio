@@ -1,0 +1,8 @@
+/* stylelint-disable selector-class-pattern, declaration-no-important */
+.introduction__social-links--list {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 2rem;
+  margin-top: 1.2rem;
+}
