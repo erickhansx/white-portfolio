@@ -1,6 +1,8 @@
 /* stylelint-disable selector-class-pattern */
+@use "../abstracts/" as *;
+
 .primary-heading {
-  color: #172b4d;
+  color: $color-blue-500;
   font-weight: 700;
   font-size: 4rem;
   line-height: 5.2rem;
@@ -8,14 +10,14 @@
 }
 
 .primary-paragraph {
-  color: #344563;
+  color: $color-grey-800;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
 }
 
 .secondary-heading {
-  color: #7f8cff;
+  color: $color-blue-100;
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -23,14 +25,14 @@
 }
 
 .works__heading {
-  color: #172b4d;
+  color: $color-blue-500;
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.4rem;
 }
 
 .works__list--1 {
-  color: #7a869a;
+  color: $color-grey-600;
   line-height: 1.6rem;
   display: flex;
   justify-content: baseline;
@@ -39,13 +41,13 @@
 }
 
 .works__paragraph {
-  color: #344563;
+  color: $color-grey-800;
   font-weight: 400;
   font-size: 1.5rem;
 }
 
 .canopy {
-  color: #344563;
+  color: $color-grey-800;
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
