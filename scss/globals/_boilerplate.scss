@@ -1,0 +1,39 @@
+@use "../util" as *;
+@use "../abstracts" as *;
+
+body {
+  font-family: $font-primary;
+  box-sizing: border-box;
+  background-color: $color-grey-400;
+}
+
+*,
+* ::after,
+* ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+li {
+  list-style: none;
+}
+
+.background-primary {
+  background-color: $color-white;
+  border-radius: 0 0 0 8rem;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+}

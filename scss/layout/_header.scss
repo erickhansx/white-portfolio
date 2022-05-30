@@ -1,0 +1,14 @@
+.header {
+  &__nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5.8rem 2.4rem;
+  }
+
+  &__nav-logo {
+    color: #6070ff;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+}
