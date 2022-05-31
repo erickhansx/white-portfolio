@@ -1,0 +1,30 @@
+.contact-me {
+  background-color: #6070ff;
+  background-image: url("../../resources/img/contactformbg.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  padding-top: 10.3rem;
+  padding-bottom: 4.5rem;
+  border-radius: 8rem 0 0 0;
+}
+
+.contact-form {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 8.7rem;
+}
+
+.item-1--child {
+  min-width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.6rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}

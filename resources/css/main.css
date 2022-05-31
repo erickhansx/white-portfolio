@@ -96,6 +96,17 @@ a:visited {
   text-transform: uppercase;
 }
 
+.secondary-paragraph {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #ebebff;
+}
+
+.contact-form-container h1 {
+  color: #fff !important;
+}
+
 .btn {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -129,6 +140,19 @@ a:visited {
   background-color: #c1c7d0;
   border-radius: 50%;
   display: inline-block;
+}
+
+.contact-form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__nav-container {
@@ -308,4 +332,40 @@ a:visited {
   margin-top: 11.4rem;
   padding: 11.4rem 2.4rem 6rem;
   border-radius: 0 8rem 0 0;
+}
+
+.contact-me {
+  background-color: #6070ff;
+  background-image: url("../../resources/img/contactformbg.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  padding-top: 10.3rem;
+  padding-bottom: 4.5rem;
+  border-radius: 8rem 0 0 0;
+}
+
+.contact-form {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.form-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  margin-top: 8.7rem;
+}
+
+.item-1--child {
+  min-width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.6rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }/*# sourceMappingURL=main.css.map */
