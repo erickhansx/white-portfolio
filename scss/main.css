@@ -90,6 +90,18 @@ a:visited {
   text-transform: uppercase;
 }
 
+.secondary-paragraph {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  color: #ebebff;
+  text-align: center;
+}
+
+.contact-form-container h1 {
+  color: #fff !important;
+}
+
 .btn {
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -118,7 +130,14 @@ a:visited {
 }
 
 .btn-2 {
-  background-color: red;
+  padding: 1.2rem 1.6rem;
+  margin-top: 2.2rem;
+  color: #6070ff;
+  background-color: #fff;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  border-radius: 0.8rem;
 }
 
 .dot {
@@ -132,8 +151,38 @@ a:visited {
 .contact-form-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.contact-me {
+  background-color: #6070ff;
+  background-image: url("../../resources/img/contactformbg.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  padding-top: 10.3rem;
+  padding-bottom: 4.5rem;
+  border-radius: 8rem 0 0 0;
+}
+
+.contact-form {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.form-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 8.7rem;
+}
+
+.item-1--child {
+  min-width: 100%;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.6rem;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
 }
 
 .header__nav-container {
