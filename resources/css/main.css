@@ -212,6 +212,23 @@ hr {
   margin: 0 auto;
 }
 
+@media (min-width: 768px) {
+  .header {
+    margin: 0 11%;
+  }
+  .header .hamburguer-menu {
+    display: none;
+  }
+  .header .header__nav-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 3.2rem;
+  }
+}
+.header__nav-menu {
+  display: none;
+}
 .header__nav-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,6 +266,16 @@ hr {
   padding: 0 2.4rem;
   min-height: 80vh;
 }
+@media (min-width: 768px) {
+  .introduction {
+    background-image: url("../../resources/img/header-bg-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .introduction__container {
+    margin: 0 18%;
+  }
+}
 
 /* stylelint-disable selector-class-pattern, declaration-no-important */
 .introduction__social-links--list {
@@ -264,6 +291,7 @@ hr {
           align-items: baseline;
   gap: 2rem;
   margin-top: 1.2rem;
+  margin-bottom: 13.8rem;
 }
 
 /* stylelint-disable selector-class-pattern */
