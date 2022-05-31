@@ -1,5 +1,7 @@
+@use "../abstracts/" as *;
+
 .about-myself {
-  background-color: #fff;
+  background-color: $color-white;
   margin-top: 11.4rem;
   padding: 11.4rem 2.4rem 6rem;
   border-radius: 0 8rem 0 0;

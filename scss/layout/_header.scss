@@ -1,3 +1,5 @@
+@use "../abstracts/" as *;
+
 .header {
   &__nav-container {
     display: flex;
@@ -7,7 +9,7 @@
   }
 
   &__nav-logo {
-    color: #6070ff;
+    color: $color-blue-200;
     font-weight: 700;
     font-size: 1.8rem;
   }

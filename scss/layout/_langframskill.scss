@@ -1,13 +1,14 @@
+@use "../abstracts/" as *;
 /* stylelint-disable selector-class-pattern */
 .lang-fram-skills {
-  background-color: #fff;
+  background-color: $color-white;
   padding: 3.6rem;
 }
 
 .lang-fram-skills__languages {
   display: flex;
   justify-content: space-between;
-  color: #000;
+  color: $color-black;
   font-size: 2rem;
   font-weight: 500;
   padding-right: 2.3rem;
@@ -24,7 +25,7 @@
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 2rem;
-  background-color: #f7f7f9;
+  background-color: $color-grey-100;
   margin: 1.2rem 0;
 }
 
@@ -33,12 +34,12 @@
 }
 
 .lang-fram-skills__frameworks {
-  border-bottom: 1px solid #dfe1e6;
+  border-bottom: 1px solid $color-grey-300;
   padding-bottom: 2.3rem;
 }
 
 .lang-fram-skills__skills {
-  border-bottom: 1px solid #dfe1e6;
+  border-bottom: 1px solid $color-grey-300;
   padding-bottom: 2.3rem;
   padding-top: 2.4rem;
 }
