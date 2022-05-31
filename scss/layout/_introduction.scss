@@ -1,0 +1,12 @@
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../img/headerbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100vw;
+  padding: 0 2.4rem;
+  min-height: 80vh;
+}
