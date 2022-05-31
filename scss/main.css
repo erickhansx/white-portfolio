@@ -138,6 +138,7 @@ a:visited {
   font-weight: 500;
   line-height: 2.4rem;
   border-radius: 0.8rem;
+  border: 1px solid #fff;
 }
 
 .dot {
@@ -183,6 +184,11 @@ a:visited {
   padding-left: 1.6rem;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+}
+
+hr {
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 .header__nav-container {
