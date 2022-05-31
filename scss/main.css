@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 body {
   font-family: poppins, sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: #e5e5e5;
 }
 
@@ -12,8 +11,7 @@ body {
 * ::before {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 html {
@@ -73,12 +71,8 @@ a:visited {
 .works__list--1 {
   color: #7a869a;
   line-height: 1.6rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: baseline;
-      -ms-flex-pack: baseline;
-          justify-content: baseline;
+  justify-content: baseline;
   gap: 1.2rem;
   margin: 2rem 0;
 }
@@ -145,7 +139,6 @@ a:visited {
   line-height: 2.4rem;
   border-radius: 0.8rem;
   border: 1px solid #fff;
-  margin-bottom: 3.2rem;
 }
 
 .dot {
@@ -157,16 +150,9 @@ a:visited {
 }
 
 .contact-form-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-me {
@@ -175,7 +161,7 @@ a:visited {
   background-repeat: no-repeat;
   background-position-x: 100%;
   padding-top: 10.3rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 4.5rem;
   border-radius: 8rem 0 0 0;
 }
 
@@ -185,13 +171,8 @@ a:visited {
 }
 
 .form-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 2rem;
   margin-top: 8.7rem;
 }
@@ -206,22 +187,14 @@ a:visited {
 }
 
 hr {
-  border: 5px solid #000;
-  border-radius: 10rem;
-  max-width: 33%;
-  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 5px;
 }
 
 .header__nav-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 5.8rem 2.4rem;
 }
 .header__nav-logo {
@@ -231,16 +204,9 @@ hr {
 }
 
 .introduction {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../img/headerbg.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -252,16 +218,9 @@ hr {
 
 /* stylelint-disable selector-class-pattern, declaration-no-important */
 .introduction__social-links--list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  flex-direction: row;
+  align-items: baseline;
   gap: 2rem;
   margin-top: 1.2rem;
 }
@@ -275,16 +234,9 @@ hr {
 }
 
 .works__tonic-mps {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   background-color: #fff;
   padding: 1.6rem;
   margin-bottom: 8.8rem;
@@ -293,8 +245,6 @@ hr {
 }
 
 .works__list--2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 3.2rem;
   color: #6070ff;
@@ -338,12 +288,8 @@ hr {
 }
 
 .lang-fram-skills__languages {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   color: #000;
   font-size: 2rem;
   font-weight: 500;
@@ -355,12 +301,8 @@ hr {
 }
 
 .lang-fram-skills__ellipses li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   color: #253858;
   font-size: 1.5rem;
   font-weight: 500;
