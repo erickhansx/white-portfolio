@@ -3,30 +3,47 @@
 .lang-fram-skills {
   background-color: $color-white;
   padding: 3.6rem;
-}
+  margin-top: 6rem;
 
-.lang-fram-skills__languages {
-  display: flex;
-  justify-content: space-between;
-  color: $color-black;
-  font-size: 2rem;
-  font-weight: 500;
-  padding-right: 2.3rem;
+  &__languages {
+    display: flex;
+    justify-content: space-between;
+    color: $color-black;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-right: 2.3rem;
+  }
+
+  &__ellipses li {
+    display: flex;
+    align-items: center;
+    color: #253858;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2rem;
+    background-color: $color-grey-100;
+    margin: 1.2rem 0;
+
+    @media only screen and (min-width: 768px) {
+      flex-direction: column;
+      height: 20%;
+      padding: 1.2rem;
+      margin: 1.2rem;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    padding-top: 0;
+    margin-top: 0;
+
+    &__ellipses {
+      display: flex;
+    }
+  }
 }
 
 .ellipse-image {
   padding: 0.9rem 1.6rem 1rem 1.2rem;
-}
-
-.lang-fram-skills__ellipses li {
-  display: flex;
-  align-items: center;
-  color: #253858;
-  font-size: 1.5rem;
-  font-weight: 500;
-  line-height: 2rem;
-  background-color: $color-grey-100;
-  margin: 1.2rem 0;
 }
 
 .lang-fram-skills__ellipses li:last-child {

@@ -15,6 +15,13 @@
   margin-bottom: 8.8rem;
   border: 1px solid #dfe1e6;
   border-radius: 1.6rem;
+
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+    gap: 4.6rem;
+  }
 }
 
 .works__list--2 {

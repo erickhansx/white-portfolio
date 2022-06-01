@@ -1,6 +1,25 @@
 @use "../abstracts/" as *;
 
 .header {
+  @media (min-width: 768px) {
+    & {
+      margin: 0 11%;
+    }
+
+    .hamburguer-menu {
+      display: none;
+    }
+
+    .header__nav-menu {
+      display: flex;
+      gap: 3.2rem;
+    }
+  }
+
+  &__nav-menu {
+    display: none;
+  }
+
   &__nav-container {
     display: flex;
     justify-content: space-between;

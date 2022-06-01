@@ -9,4 +9,16 @@
   max-width: 100vw;
   padding: 0 2.4rem;
   min-height: 80vh;
+
+  @media (min-width: 768px) {
+    & {
+      background-image: url("../../resources/img/header-bg-desktop.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    &__container {
+      margin: 0 18%;
+    }
+  }
 }

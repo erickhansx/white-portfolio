@@ -5,4 +5,9 @@
   margin-top: 11.4rem;
   padding: 11.4rem 2.4rem 6rem;
   border-radius: 0 8rem 0 0;
+
+  @media only screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
