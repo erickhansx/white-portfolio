@@ -29,6 +29,11 @@
   font-weight: 700;
   font-size: 3.2rem;
   line-height: 4.4rem;
+
+  @media (min-width: 768px) {
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
 }
 
 .works__list--1 {
@@ -38,12 +43,29 @@
   justify-content: baseline;
   gap: 1.2rem;
   margin: 2rem 0;
+
+  @media (min-width: 768px) {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+  }
+}
+
+.works__list--2 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 500;
 }
 
 .works__paragraph {
   color: $color-grey-800;
   font-weight: 400;
   font-size: 1.5rem;
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 }
 
 .canopy {
@@ -51,6 +73,12 @@
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
+
+  @media (min-width: 768px) {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+  }
 }
 
 .secondary-paragraph {

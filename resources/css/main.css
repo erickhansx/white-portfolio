@@ -69,6 +69,12 @@ a:visited {
   font-size: 3.2rem;
   line-height: 4.4rem;
 }
+@media (min-width: 768px) {
+  .works__heading {
+    font-size: 4rem;
+    line-height: 5.2rem;
+  }
+}
 
 .works__list--1 {
   color: #7a869a;
@@ -82,11 +88,30 @@ a:visited {
   gap: 1.2rem;
   margin: 2rem 0;
 }
+@media (min-width: 768px) {
+  .works__list--1 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+  }
+}
+
+.works__list--2 {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: 500;
+}
 
 .works__paragraph {
   color: #344563;
   font-weight: 400;
   font-size: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .works__paragraph {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 }
 
 .canopy {
@@ -94,6 +119,13 @@ a:visited {
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
+}
+@media (min-width: 768px) {
+  .canopy {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+  }
 }
 
 .secondary-paragraph {
@@ -318,6 +350,14 @@ hr {
   margin-bottom: 8.8rem;
   border: 1px solid #dfe1e6;
   border-radius: 1.6rem;
+}
+@media (min-width: 768px) {
+  .works__tonic-mps {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+    gap: 4.6rem;
+  }
 }
 
 .works__list--2 {
