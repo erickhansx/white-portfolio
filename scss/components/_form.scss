@@ -2,6 +2,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media only screen and (min-width: 768px) {
+    padding: 17% 30.3% 1.4%;
+  }
 }
 
 .contact-me {
@@ -12,11 +16,23 @@
   padding-top: 10.3rem;
   padding-bottom: 0.8rem;
   border-radius: 8rem 0 0 0;
+
+  @media only screen and (min-width: 768px) {
+    background-image: url("../../resources/img/contactformbgdesk.svg");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+  }
 }
 
 .contact-form {
   margin-left: 2.4rem;
   margin-right: 2.4rem;
+  @media only screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .form-list {
@@ -24,6 +40,11 @@
   flex-direction: column;
   gap: 2rem;
   margin-top: 8.7rem;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0 34.5%;
+    margin-top: 1.2rem;
+  }
 }
 
 .item-1--child {

@@ -3,4 +3,8 @@ hr {
   border-radius: 10rem;
   max-width: 33%;
   margin: 0 auto;
+
+  @media only screen and (min-width: 768px) {
+    display: none;
+  }
 }
