@@ -1,6 +1,12 @@
 /* stylelint-disable selector-class-pattern */
 @use "../abstracts/" as *;
 
+.header__nav-menu {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
 .primary-heading {
   color: $color-blue-500;
   font-weight: 700;

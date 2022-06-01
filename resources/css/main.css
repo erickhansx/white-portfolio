@@ -40,6 +40,12 @@ a:visited {
 }
 
 /* stylelint-disable selector-class-pattern */
+.header__nav-menu {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
 .primary-heading {
   color: #172b4d;
   font-weight: 700;
