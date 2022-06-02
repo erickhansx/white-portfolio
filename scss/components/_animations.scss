@@ -1,38 +1,28 @@
 @media screen and (min-width: 768px) {
-  
   .primary-heading {
-  animation-name: grow1;
-  animation-duration: 5s;
-  position: relative;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes grow1 {
-  from {
-  top: 30rem;
-  scale: 90%;
-}
-
-  to {
-  scale: 100%;
-  top: 0;
-  color: rgb(173, 66, 66, 0.5);
-}
-}
-.btn {
-  &:hover {
-    animation-name: grow;
-    animation-duration: 2s;
+    animation-name: grow1;
+    animation-duration: 5s;
+    position: relative;
+    animation-timing-function: ease-in-out;
   }
-}
 
-@keyframes grow {
-  from {
-    scale: 100%;
-  }  
+  @keyframes grow1 {
+    from {
+      top: 30rem;
+      scale: 90%;
+    }
 
-  to {
-    scale: 110%;
+    to {
+      scale: 100%;
+      top: 0;
+      color: rgb(173, 66, 66, 0.5);
+    }
   }
-}
+
+  .header__nav-menu--desktop {
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
 }
