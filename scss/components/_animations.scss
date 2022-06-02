@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-
+  
   .primary-heading {
   animation-name: grow1;
   animation-duration: 5s;
@@ -18,5 +18,21 @@
   top: 0;
   color: rgb(173, 66, 66, 0.5);
 }
+}
+.btn {
+  &:hover {
+    animation-name: grow;
+    animation-duration: 2s;
+  }
+}
+
+@keyframes grow {
+  from {
+    scale: 100%;
+  }  
+
+  to {
+    scale: 110%;
+  }
 }
 }
