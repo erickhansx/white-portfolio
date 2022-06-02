@@ -10,7 +10,6 @@
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-You can view the project live [here](https://erickhansx.github.io/white-portfolio/)
 
 ### Prerequisites
 
