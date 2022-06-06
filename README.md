@@ -9,6 +9,7 @@
 
 ## Getting Started
 
+Live demo of the project: Portfolio[https://erickhansx.github.io/white-portfolio/]
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
