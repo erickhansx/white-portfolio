@@ -55,7 +55,7 @@ a:visited {
 }
 
 .primary-paragraph {
-  color: #344563;
+  color: #1a222e;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -83,7 +83,7 @@ a:visited {
 }
 
 .works__list--1 {
-  color: #7a869a;
+  color: #1a222e;
   line-height: 1.6rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +109,7 @@ a:visited {
 }
 
 .works__paragraph {
-  color: #344563;
+  color: #1a222e;
   font-weight: 400;
   font-size: 1.5rem;
 }
@@ -121,7 +121,7 @@ a:visited {
 }
 
 .canopy {
-  color: #344563;
+  color: #1a222e;
   font-weight: 600;
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -372,7 +372,7 @@ hr {
   padding: 5.8rem 2.4rem;
 }
 .header__nav-logo {
-  color: #6070ff;
+  color: #0b177e;
   font-weight: 700;
   font-size: 1.8rem;
 }
