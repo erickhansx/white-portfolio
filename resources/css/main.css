@@ -62,7 +62,7 @@ a:visited {
 }
 
 .secondary-heading {
-  color: #7f8cff;
+  color: #0a146d;
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -176,7 +176,7 @@ a:visited {
 .btn-2 {
   padding: 1.2rem 1.6rem;
   margin-top: 2.2rem;
-  color: #6070ff;
+  color: #0a146d;
   background-color: #fff;
   font-size: 1.7rem;
   font-weight: 500;
@@ -318,7 +318,6 @@ hr {
     to {
       scale: 100%;
       top: 0;
-      color: rgba(173, 66, 66, 0.5);
     }
   }
 
@@ -330,7 +329,6 @@ hr {
     to {
       scale: 100%;
       top: 0;
-      color: rgba(173, 66, 66, 0.5);
     }
   }
   .header__nav-menu--desktop {
@@ -463,7 +461,7 @@ hr {
   display: -ms-flexbox;
   display: flex;
   gap: 3.2rem;
-  color: #6070ff;
+  color: #0b177e;
   margin-top: 1.2rem;
 }
 

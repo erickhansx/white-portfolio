@@ -38,6 +38,14 @@ Once you have downloaded the project to your local machine, you can extract the 
 - Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/erick-hans-858382231/)
 
+## Collaborators 👤
+
+`Krishna`
+
+- GitHub: [@Krishnabot](https://github.com/Krishnabot)
+- Twitter: [@last_matrix](https://twitter.com/last_matrix)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/krishna-prasad-acharya-3596bb130/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
