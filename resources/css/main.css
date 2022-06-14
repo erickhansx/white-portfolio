@@ -392,7 +392,6 @@ hr {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 4rem;
-  top: 0;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
 }

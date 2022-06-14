@@ -1,4 +1,4 @@
-@use "../abstracts/" as *;
+@use '../abstracts/' as *;
 
 .header {
   @media (min-width: 768px) {
@@ -46,7 +46,6 @@
     padding-top: 10.6rem;
     flex-direction: column;
     gap: 4rem;
-    top: 0;
     transition: all 1s ease;
   }
 
