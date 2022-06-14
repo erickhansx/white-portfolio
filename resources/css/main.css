@@ -389,9 +389,14 @@ hr {
   padding-top: 10.6rem;
   -webkit-backdrop-filter: blur(2rem);
   backdrop-filter: blur(2rem);
-  -webkit-transition: 2s;
-  transition: 2s;
+  -webkit-transition: 5s;
+  transition: 5s;
   top: 0;
+}
+.header .x-mobile {
+  position: absolute;
+  top: 5%;
+  right: 5%;
 }
 
 .introduction {

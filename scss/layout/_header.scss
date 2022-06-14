@@ -46,7 +46,13 @@
     padding-top: 10.6rem;
     -webkit-backdrop-filter: blur(2rem);
     backdrop-filter: blur(2rem);
-    transition: 2s;
+    transition: 5s;
     top: 0;
+  }
+
+  .x-mobile {
+    position: absolute;
+    top: 5%;
+    right: 5%;
   }
 }
