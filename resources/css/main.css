@@ -379,7 +379,7 @@ hr {
 .header .mobile-menu {
   display: none;
   background-color: #6070ff;
-  opacity: 90%;
+  opacity: 95%;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -387,11 +387,14 @@ hr {
   font-size: 3.2rem;
   padding-left: 2.8rem;
   padding-top: 10.6rem;
-  -webkit-backdrop-filter: blur(2rem);
-  backdrop-filter: blur(2rem);
-  -webkit-transition: 5s;
-  transition: 5s;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 4rem;
   top: 0;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
 }
 .header .x-mobile {
   position: absolute;
