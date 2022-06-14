@@ -1,3 +1,4 @@
+/*eslint linebreak-style: ["error", "windows"]*/
 const mobileMenu = document.querySelector('.mobile-menu');
 const burguer = document.querySelector('.hamburguer-menu');
 const xmenu = document.querySelector('.x-mobile');
