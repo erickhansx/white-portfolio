@@ -376,6 +376,23 @@ hr {
   font-weight: 700;
   font-size: 1.8rem;
 }
+.header .mobile-menu {
+  display: none;
+  background-color: #6070ff;
+  opacity: 90%;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  color: #fff;
+  font-size: 3.2rem;
+  padding-left: 2.8rem;
+  padding-top: 10.6rem;
+  -webkit-backdrop-filter: blur(2rem);
+  backdrop-filter: blur(2rem);
+  -webkit-transition: 2s;
+  transition: 2s;
+  top: 0;
+}
 
 .introduction {
   display: -webkit-box;
