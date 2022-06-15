@@ -5,6 +5,10 @@ const menulist = document.querySelector('.link-1');
 const menulist2 = document.querySelector('.link-2');
 const menulist3 = document.querySelector('.link-3');
 
+function close1() {
+  mobileMenu.style.top = '-100%';
+}
+
 function close() {
   mobileMenu.style.top = '-100%';
 }
