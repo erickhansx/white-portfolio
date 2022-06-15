@@ -19,7 +19,9 @@
         <nav class="header__nav-container">
           <div class="header__nav-logo"><a href="#">My Logo</a></div>
           <div class="hamburguer-menu">
-            <img src="./resources/img/hamburger.png" alt="" />
+            <a class="hamburguer-menu"
+              ><img src="./resources/img/hamburger.png" alt=""
+            /></a>
           </div>
           <nav class="header__nav-menu">
             <ul>
@@ -34,6 +36,20 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </nav>
+        </nav>
+        <nav>
+          <ul class="mobile-menu">
+            <li>
+              <a class="x-mobile">X</a>
+            </li>
+            <li class="link-1">
+              <a href="#works">Portfolio</a>
+            </li>
+
+            <li class="link-2"><a href="#about-myself">About</a></li>
+
+            <li class="link-3"><a href="#contact-me">Contact</a></li>
+          </ul>
         </nav>
       </header>
       <!-- Introduction -->
@@ -96,7 +112,7 @@
       </section>
     </main>
     <!-- WORKS SECTION -->
-    <div class="works">
+    <div class="works" id="works">
       <article class="works__tonic-mps">
         <div class="works__image-container--1"></div>
         <div class="works__text-container">
@@ -199,7 +215,7 @@
       </article>
     </div>
     <!-- ABOUT MYSELF SECTION  -->
-    <section class="about-myself">
+    <section class="about-myself" id="about-myself">
       <div class="about-myself__container">
         <h1 class="primary-heading">
           About <br />
@@ -300,7 +316,7 @@
     </section>
 
     <!-- Contact me section -->
-    <section class="contact-me">
+    <section class="contact-me" id="contact-me">
       <div class="contact-me__container">
         <form
           action="https://formspree.io/f/xzbokrya"
@@ -356,5 +372,6 @@
       </div>
       <hr />
     </section>
+    <script src="./resources/js/index.js"></script>
   </body>
 </html>
