@@ -186,6 +186,15 @@ a:visited {
   margin-bottom: 3.2rem;
 }
 
+.close {
+  font-size: 45px;
+  font-weight: 300;
+  color: #67798e;
+  position: absolute;
+  top: 1%;
+  right: 4%;
+}
+
 .dot {
   height: 8px;
   width: 8px;
