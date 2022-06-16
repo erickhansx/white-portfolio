@@ -232,7 +232,7 @@ function openBtn(num) {
     cardXButton,
     cardImage,
     cardText,
-    cardWorksButtons
+    cardWorksButtons,
   );
 
   xContainer.appendChild(cardXButton);
@@ -245,7 +245,7 @@ function openBtn(num) {
   cardText.textContent = worksInfo[num].paragraph;
   cardButtonLive.href = worksInfo[num].urlLive;
   cardButtonSource.href = worksInfo[num].urlSource;
- 
+
   let childNode;
   for (let i = 0; i < worksInfo[num].list.length; i += 1) {
     childNode = document.createElement('li');
