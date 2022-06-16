@@ -232,7 +232,7 @@ function openBtn(num) {
     cardXButton,
     cardImage,
     cardText,
-    cardWorksButtons,
+    cardWorksButtons
   );
 
   xContainer.appendChild(cardXButton);
@@ -245,20 +245,6 @@ function openBtn(num) {
   cardText.textContent = worksInfo[num].paragraph;
   cardButtonLive.href = worksInfo[num].urlLive;
   cardButtonSource.href = worksInfo[num].urlSource;
-
-  let childNode;
-
-  for (let i = 0; i < worksInfo[num].list.length; i += 1) {
-    childNode = document.createElement('li');
-    childNode.innerHTML = worksInfo[num].list[i];
-    cardList.append(childNode);
-  }
-
-  for (let i = 0; i < worksInfo[num].languages.length; i += 1) {
-    childNode = document.createElement('li');
-    childNode.innerHTML = worksInfo[num].languages[i];
-    cardWorksList.append(childNode);
-  }
 
   const closePopup = document.querySelector('.close');
 
