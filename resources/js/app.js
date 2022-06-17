@@ -232,7 +232,7 @@ function openBtn(num) {
     cardXButton,
     cardImage,
     cardText,
-    cardWorksButtons
+    cardWorksButtons,
   );
 
   xContainer.appendChild(cardXButton);
@@ -288,7 +288,7 @@ const form = document.getElementById('form');
 const errorMessages = document.getElementById('errormessages');
 
 form.addEventListener('submit', (e) => {
-  let messages = [];
+  const messages = [];
   if (email.value === '' || email.value == null) {
     messages.push('Name is required!');
     errorMessages.innerHTML = messages.join(', ');
