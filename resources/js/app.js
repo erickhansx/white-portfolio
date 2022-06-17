@@ -227,12 +227,11 @@ function openBtn(num) {
   cardXButton.classList.add('close');
 
   cardPopup.append(
-    cardTop,
     xContainer,
     cardXButton,
     cardImage,
     cardText,
-    cardWorksButtons,
+    cardWorksButtons
   );
 
   xContainer.appendChild(cardXButton);
