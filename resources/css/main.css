@@ -297,6 +297,21 @@ a:visited {
   }
 }
 
+.error-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff0000;
+  margin-bottom: -1rem;
+  font-size: 150%;
+}
+
 hr {
   border: 5px solid #000;
   border-radius: 10rem;

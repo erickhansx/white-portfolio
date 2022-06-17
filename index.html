@@ -229,6 +229,7 @@
           action="https://formspree.io/f/xzbokrya"
           class="contact-form"
           method="post"
+          id="form"
         >
           <div class="contact-form-container">
             <h1 class="primary-heading">Contact me</h1>
@@ -250,6 +251,7 @@
                 required
               />
             </li>
+
             <li>
               <input
                 class="item-1--child"
@@ -257,9 +259,9 @@
                 name="email"
                 id="email"
                 placeholder="Your E-mail"
-                required
               />
             </li>
+
             <li>
               <textarea
                 class="item-1--child"
@@ -272,8 +274,14 @@
               ></textarea>
             </li>
           </ul>
+          <div class="error-container">
+            <small id="errormessages"></small>
+          </div>
+
           <div class="button-container">
-            <button class="btn-2">Get in touch</button>
+            <button class="btn-2" type="submit" id="submit">
+              Get in touch
+            </button>
           </div>
         </form>
       </div>
