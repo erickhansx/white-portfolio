@@ -11,7 +11,7 @@
 
 .contact-me {
   background-color: #6070ff;
-  background-image: url("../../resources/img/contactformbg.png");
+  background-image: url('../../resources/img/contactformbg.png');
   background-repeat: no-repeat;
   background-position-x: 100%;
   padding-top: 10.3rem;
@@ -19,7 +19,7 @@
   border-radius: 8rem 0 0 0;
 
   @media only screen and (min-width: 768px) {
-    background-image: url("../../resources/img/contactformbgdesk.svg");
+    background-image: url('../../resources/img/contactformbgdesk.svg');
     background-repeat: no-repeat;
     background-position-x: 100%;
   }
@@ -63,4 +63,13 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.error-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f00;
+  margin-bottom: -1rem;
+  font-size: 150%;
 }

@@ -280,3 +280,23 @@ openPopup3.addEventListener('click', () => {
 openPopup4.addEventListener('click', () => {
   openBtn(3);
 });
+
+// Form Validation
+
+const email = document.getElementById('email');
+const form = document.getElementById('form');
+const errorMessages = document.getElementById('errormessages');
+
+form.addEventListener('submit', (e) => {
+  const messages = [];
+  if (email.value === '' || email.value == null) {
+    messages.push('Name is required!');
+    errorMessages.innerHTML = messages.join(', ');
+    e.preventDefault();
+  }
+  if (/[A-Z]/.test(email.value) === true) {
+    messages.push('Email must only contain lowercase letters.');
+    errorMessages.innerHTML = messages.join(', ');
+    e.preventDefault();
+  }
+});
