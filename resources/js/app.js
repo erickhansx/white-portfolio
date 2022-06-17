@@ -294,4 +294,9 @@ form.addEventListener('submit', (e) => {
     errorMessages.innerHTML = messages.join(', ');
     e.preventDefault();
   }
+  if (/[A-Z]/.test(email.value) === true) {
+    messages.push('Email must only contain lowercase letters.');
+    errorMessages.innerHTML = messages.join(', ');
+    e.preventDefault();
+  }
 });
